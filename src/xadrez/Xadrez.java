@@ -6,13 +6,14 @@
 
 package xadrez;
 
-import boardgame.Position;
+import boardgame.Posicao;
+import boardgame.Tabuleiro;
 
 
 public class Xadrez {
 
     public static void main(String[] args) {
-        Position pos = new Position (3,5);
-        System.out.println(pos.toString());
+        Tabuleiro tabuleiro = new Tabuleiro (8,8);
+        
 }
 }
